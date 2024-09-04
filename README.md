@@ -1,3 +1,13 @@
+# Getting Started with Contribution
+- Clone the git repo
+- Checkout to dev branch
+- Create a new branch from dev
+- Add/Edit a feature or fix a bug
+- Commit the changes
+- Raise a PR
+- Hurray! Thank you for your Contribution. 
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
