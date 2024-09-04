@@ -1,0 +1,42 @@
+[
+  {
+    "imageUrl": "https://user-images.githubusercontent.com/57852939/141051614-601e150e-b813-4700-9659-73535e5412fd.png",
+    "title": "Pokemon Battleground",
+    "description": "React, Redux based Multiplayer online game that uses NodeJS as backend and Socket API for Real-Time Communication and data sharing. On generating a unique link 2 players can join the room and play the game.",
+    "techStacks": ["React", "Redux", "Node.js", "Socket.IO"],
+    "liveLink": "https://pokemon-battleground-app.vercel.app/",
+    "codeLink": "https://github.com/Jarvis-3000/Pokemon-BattleGround"
+  },
+  {
+    "imageUrl": "https://framerusercontent.com/images/fJaqQIXWP1utWOLKK0IHdiXuetI.png?scale-down-to=1024",
+    "title": "Automation Builder",
+    "description": "React Flow Automation Builder! This project leverages the power of React and React Flow to provide a visual and intuitive interface for creating automation workflows. Whether you're looking to simulate complex data transformations or simple input-output operations, this application offers a versatile platform to connect and configure various nodes seamlessly.",
+    "techStacks": ["React", "React-Flow", "Tailwind"],
+    "liveLink": "https://react-automation-builder.vercel.app/",
+    "codeLink": "https://github.com/Jarvis-3000/Automation-Builder"
+  },
+  {
+    "imageUrl": "https://img.freepik.com/free-photo/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.jpg?w=1060&t=st=1725371098~exp=1725371698~hmac=ee0ba2c91ad6f9318159a6dfa3546d6af6323886dd33d635dcaff835bc5015ae",
+    "title": "Crown Shop (E-Commerce)",
+    "description": "A simple E-Commerce-Website made in React-redux",
+    "techStacks": ["React", "Redux", "Localstorage", "saas"],
+    "liveLink": "https://crownshopp.vercel.app/",
+    "codeLink": "https://github.com/Jarvis-3000/CrownShop_React"
+  },
+  {
+    "imageUrl": "https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?t=st=1725371306~exp=1725374906~hmac=6a152d6208c7b524c17aa01d6aa6bb1928eafbf6ff4a05fa53e32319f26ee7b9&w=740",
+    "title": "Contact Management App",
+    "description": "This is a Contact Management App that creates and lists all the contacts.",
+    "techStacks": ["React", "Redux", "React-Router", "Typescript", "Tailwind"],
+    "liveLink": "https://contact-management-app-taiyo.vercel.app/",
+    "codeLink": "https://github.com/Jarvis-3000/Contact-Management-App"
+  },
+  {
+    "imageUrl": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Project 5",
+    "description": "A brief description of Project 3.",
+    "techStacks": ["Python", "Django", "PostgreSQL"],
+    "liveLink": "https://example.com/project3",
+    "codeLink": "https://github.com/example/project3"
+  }
+]

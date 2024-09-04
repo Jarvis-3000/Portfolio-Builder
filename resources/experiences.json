@@ -1,0 +1,16 @@
+[
+  {
+    "imageUrl": "https://vectorshift-public.s3.amazonaws.com/android-chrome-512x512.png",
+    "title": "Experience 1",
+    "description": "A brief description of Experience 1.",
+    "techStacks": ["React", "Next.js", "Typescript", "Python", "Tailwind CSS"],
+    "link": "https://example.com/project1"
+  },
+  {
+    "imageUrl": "https://glamplus.in/logo.svg",
+    "title": "Experience 2",
+    "description": "A brief description of Experience 2.",
+    "techStacks": ["TypeScript", "Node.js", "Express"],
+    "link": "https://example.com/project2"
+  }
+]
