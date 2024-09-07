@@ -10,7 +10,13 @@
     "imageUrl": "https://glamplus.in/logo.svg",
     "title": "GlamPlus",
     "description": "I led website optimization by implementing advanced SEO strategies with an SEO consultant, improving search rankings and creating a FAQ section for customer queries. I developed a React Native marketplace app for bulk salon product purchases, including account management, order tracking, and a dynamic social media footer. Additionally, I implemented access control to secure sensitive components and designed an inventory management system to track product movements and transaction history.",
-    "techStacks": ["React", "Next.js", "React Native", "Typescript", "Tailwind CSS"],
+    "techStacks": [
+      "React",
+      "Next.js",
+      "React Native",
+      "Typescript",
+      "Tailwind CSS"
+    ],
     "link": "https://www.linkedin.com/company/glamplus/"
   }
 ]

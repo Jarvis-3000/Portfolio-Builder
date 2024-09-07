@@ -30,5 +30,5 @@
     "techStacks": ["React", "Redux", "React-Router", "Typescript", "Tailwind"],
     "liveLink": "https://contact-management-app-taiyo.vercel.app/",
     "codeLink": "https://github.com/Jarvis-3000/Contact-Management-App"
-  },
+  }
 ]

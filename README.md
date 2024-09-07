@@ -5,6 +5,7 @@
 - Add/Edit a feature or fix a bug
 - Commit the changes
 - Raise a PR
+- Solve merge conflicts and Get it merged 
 - Hurray! Thank you for your Contribution. 
 
 
