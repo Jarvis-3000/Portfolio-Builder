@@ -9,11 +9,7 @@
   {
     "imageUrl": "https://glamplus.in/logo.svg",
     "title": "GlamPlus",
-    "description": "Company Website SEO: Spearheaded website optimization efforts by implementing advanced SEO strategies in collaboration with an SEO consultant, resulting in significant improvements in search engine rankings. Established an informative FAQ section to address customer queries and concerns effectively.
-Built Marketplace app using React Native: Played a key role in developing a marketplace application enabling bulk purchases of salon products at discounted rates. Engineered user-friendly account screens, order history tracking, and address management functionalities. Collaborated on implementing a dynamic social media footer for seamless navigation.
-Access Control Level: Implemented secure access to sensitive components and pages, thus safeguarding against unauthorized access and data breaches.
-Inventory Management System: Designed and deployed a sophisticated inventory management system to track product movements, seller information, and transaction history.
-Theme: Introduced customizable dark and light themes for improved user experience.",
+    "description": "Company Website SEO: Spearheaded website optimization efforts by implementing advanced SEO strategies in collaboration with an SEO consultant, resulting in significant improvements in search engine rankings. Established an informative FAQ section to address customer queries and concerns effectively. Built Marketplace app using React Native: Played a key role in developing a marketplace application enabling bulk purchases of salon products at discounted rates. Engineered user-friendly account screens, order history tracking, and address management functionalities. Collaborated on implementing a dynamic social media footer for seamless navigation. Access Control Level: Implemented secure access to sensitive components and pages, thus safeguarding against unauthorized access and data breaches. Inventory Management System: Designed and deployed a sophisticated inventory management system to track product movements, seller information, and transaction history.",
     "techStacks": ["React", "Next.js", "React Native", "Typescript", "Tailwind CSS"],
     "link": "https://www.linkedin.com/company/glamplus/"
   }
