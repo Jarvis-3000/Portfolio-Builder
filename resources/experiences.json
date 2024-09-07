@@ -1,16 +1,22 @@
 [
   {
     "imageUrl": "https://vectorshift-public.s3.amazonaws.com/android-chrome-512x512.png",
-    "title": "Experience 1",
-    "description": "A brief description of Experience 1.",
+    "title": "VectorShift (YC S23)",
+    "description": "Worked on Chatbots that Vectorshift provides to subscribed customers.",
     "techStacks": ["React", "Next.js", "Typescript", "Python", "Tailwind CSS"],
-    "link": "https://example.com/project1"
+    "link": "https://www.linkedin.com/company/vectorshift/"
   },
   {
     "imageUrl": "https://glamplus.in/logo.svg",
-    "title": "Experience 2",
-    "description": "A brief description of Experience 2.",
-    "techStacks": ["TypeScript", "Node.js", "Express"],
-    "link": "https://example.com/project2"
+    "title": "GlamPlus",
+    "description": "I led website optimization by implementing advanced SEO strategies with an SEO consultant, improving search rankings and creating a FAQ section for customer queries. I developed a React Native marketplace app for bulk salon product purchases, including account management, order tracking, and a dynamic social media footer. Additionally, I implemented access control to secure sensitive components and designed an inventory management system to track product movements and transaction history.",
+    "techStacks": [
+      "React",
+      "Next.js",
+      "React Native",
+      "Typescript",
+      "Tailwind CSS"
+    ],
+    "link": "https://www.linkedin.com/company/glamplus/"
   }
 ]
