@@ -30,13 +30,5 @@
     "techStacks": ["React", "Redux", "React-Router", "Typescript", "Tailwind"],
     "liveLink": "https://contact-management-app-taiyo.vercel.app/",
     "codeLink": "https://github.com/Jarvis-3000/Contact-Management-App"
-  },
-  {
-    "imageUrl": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "title": "Project 5",
-    "description": "A brief description of Project 3.",
-    "techStacks": ["Python", "Django", "PostgreSQL"],
-    "liveLink": "https://example.com/project3",
-    "codeLink": "https://github.com/example/project3"
   }
 ]
