@@ -9,13 +9,13 @@ import Experiences from "@/src/components/Experiences";
 
 const Portfolio: React.FC = () => {
   return (
-    <div className="w-full relative bg-slate-300 flex flex-col gap-6">
+    <div className="w-full bg-slate-100">
       <Header />
       <TopImage />
       <Introduction />
       <Projects type="view" />
       <Experiences />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <Footer />
     </div>
   );

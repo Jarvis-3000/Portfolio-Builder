@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const ContactForm: React.FC = () => {
   return (
-    <section id="contact" className="w-full max-w-[600px] my-8 mx-auto">
+    <section id="contact" className="w-[90%] max-w-[600px] my-8 mx-auto">
       <h2 className="text-3xl font-semibold mb-6 text-center">Contact Me</h2>
       <form className="w-full bg-white shadow-md rounded-lg p-6">
         <div className="mb-4">
