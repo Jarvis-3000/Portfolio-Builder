@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({
     >
       <nav className="flex justify-between items-center">
         <div className="text-lg font-bold">{name}</div>
-        <ul className="flex space-x-4">
+        <ul className="flex space-x-4 text-xs sm:text-sm">
           <li
             className="cursor-pointer text-white font-semibold hover:text-blue-500"
             onClick={() => handleScroll("about")}
@@ -45,12 +45,12 @@ const Header: React.FC<HeaderProps> = ({
           >
             Experience
           </li>
-          <li
+          {/* <li
             className="cursor-pointer text-white font-semibold hover:text-blue-500"
             onClick={() => handleScroll("contact")}
           >
             Contact
-          </li>
+          </li> */}
         </ul>
       </nav>
     </motion.header>

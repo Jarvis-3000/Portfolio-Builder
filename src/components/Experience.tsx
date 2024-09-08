@@ -25,13 +25,13 @@ const Experience: React.FC<ExperienceProps> = (props) => {
     <div
       className={`w-full max-w-[1000px] mx-auto  flex flex-col lg:flex-row p-2 gap-4 rounded-lg bg-white ${classname}`}
     >
-      <motion.div className="flex-1 min-h-[300px] relative">
+      <motion.div className="flex-1 min-h-[150px] sm:min-h-[200px] lg:min-h-[300px] relative">
         <Image
           src={imageUrl}
           alt={title}
           fill
           sizes="100vw"
-          className="rounded-lg"
+          className="rounded-lg object-contain"
         />
       </motion.div>
 
