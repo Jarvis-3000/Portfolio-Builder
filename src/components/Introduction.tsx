@@ -5,11 +5,11 @@ const Introduction: React.FC = () => {
   return (
     <section
       id="about"
-      className="flex flex-col md:flex-row items-center justify-center gap-10 p-4"
+      className="flex flex-col md:flex-row items-center justify-center gap-10 px-4"
     >
       <div className="h-fit w-fit rounded-full p-10 border-[1px] border-gray-400">
         <div className="rounded-full p-5 border-[1px] border-gray-400">
-          <div className="rounded-full h-[100px] w-[100px] sm:h-[200px] sm:w-[200px] lg:h-[300px] lg:w-[300px] relative">
+          <div className="rounded-full h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] lg:h-[300px] lg:w-[300px] relative">
             <Image
               src="https://dqy38fnwh4fqs.cloudfront.net/UHBABAJPA7B9LBN2PMDBJRQLE9JN/hbabajpa7b9lbn2pmdbjrqle9jn-profile"
               fill

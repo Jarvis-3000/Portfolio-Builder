@@ -2,16 +2,18 @@
 
 import { useState, useEffect } from "react";
 import { Sun, Moon, Laptop } from "lucide-react";
-import { useTheme } from "@/providers/theme-provider";
+import { useTheme } from "next-themes"; 
 
 export const ThemeToggler = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
 
   const onChange = (theme: "system" | "light" | "dark") => {
     setTheme(theme);
     setIsOpen(false);
   };
+
+  console.log({theme})
 
   // Close the menu when clicking outside
   useEffect(() => {
@@ -38,21 +40,27 @@ export const ThemeToggler = () => {
         <div className="bg-white text-black dark:text-white dark:bg-gray-700 p-2 rounded shadow-md flex flex-col gap-2">
           <button
             onClick={() => onChange("light")}
-            className="flex items-center gap-2 p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600"
+            className={`flex items-center gap-2 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-600
+              ${theme === "light" ? "bg-gray-300 dark:bg-gray-400" : ""}
+              `}
           >
             <Sun className="h-5 w-5" />
             Light
           </button>
           <button
             onClick={() => onChange("dark")}
-            className="flex items-center gap-2 p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600"
+            className={`flex items-center gap-2 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-600
+              ${theme === "dark" ? "bg-gray-300 dark:bg-gray-800" : ""}
+              `}
           >
             <Moon className="h-5 w-5" />
             Dark
           </button>
           <button
             onClick={() => onChange("system")}
-            className="flex items-center gap-2 p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600"
+            className={`flex items-center gap-2 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-600
+              ${theme === "system" ? "bg-gray-300 dark:bg-gray-800" : ""}
+              `}
           >
             <Laptop className="h-5 w-5" />
             System
