@@ -1,6 +1,5 @@
 "use-client";
 import Image from "next/image";
-import { motion } from "framer-motion";
 
 interface ProjectCardProps {
   imageUrl: string;
@@ -24,17 +23,12 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
   } = props;
 
   return (
-    <motion.div
-      className={`flex flex-col max-w-xl rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-800 ${classname}`}
-      whileHover={{ scale: 1.1 }}
-      transition={{ duration: 0.3, ease: "easeInOut" }}
+    <div
+      className={`flex flex-col max-w-xl rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-600 
+        hover:scale-105 transition-all duration-500 ${classname}`}
     >
       <a href={liveLink} target="_blank" rel="noopener noreferrer">
-        <motion.div
-          className="h-[250px] relative"
-          whileHover={{ opacity: 0.9, scale: 1.1, y: -10 }}
-          transition={{ duration: 0.5, ease: "easeInOut" }}
-        >
+        <div className="h-[250px] relative hover:scale-105 transition-all duration-500">
           <Image
             src={imageUrl}
             alt={title}
@@ -42,7 +36,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
             sizes="100vw"
             className="rounded-t-lg"
           />
-        </motion.div>
+        </div>
       </a>
       <div className="flex-1 flex flex-col justify-between px-5 py-3">
         <div>
@@ -59,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
                 {techStacks.map((tech, techIndex) => (
                   <li
                     key={techIndex}
-                    className="text-xs font-semibold bg-gray-200 py-1 px-3 rounded-lg"
+                    className="text-xs font-semibold bg-gray-200 dark:text-black py-1 px-3 rounded-lg"
                   >
                     {tech}
                   </li>
@@ -87,7 +81,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
           </a>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
