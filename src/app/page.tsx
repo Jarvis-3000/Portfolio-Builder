@@ -10,12 +10,15 @@ import { Skills } from "@/src/components/Skills";
 
 const Portfolio: React.FC = () => {
   return (
-    <div className="w-full h-full bg-slate-100 dark:bg-slate-500 flex flex-col gap-y-[100px]">
+    <div className="w-full h-full bg-slate-100 dark:bg-slate-500 flex flex-col gap-y-[50px]">
       <Header />
       <TopImage />
       <Introduction />
+      <br />
       <Skills />
+      <br />
       <Projects type="card" />
+      <br />
       <Experiences />
       <Footer />
       <ThemeToggler />

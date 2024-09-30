@@ -8,6 +8,17 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+:root {
+  /* Your default theme */
+  --background: white;
+  --foreground: black;
+}
+
+[data-theme="dark"] {
+  --background: black;
+  --foreground: white;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
