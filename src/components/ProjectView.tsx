@@ -1,6 +1,3 @@
-"use-client";
-import { motion } from "framer-motion";
-import Image from "next/image";
 
 interface ProjectViewProps {
   imageUrl: string;
@@ -25,7 +22,7 @@ const ProjectView: React.FC<ProjectViewProps> = (props) => {
 
   return (
     <div
-      className={`w-full max-w-[1000px] mx-auto flex flex-col lg:flex-row p-2 gap-4 rounded-lg bg-white ${classname}`}
+      className={`w-full max-w-[1000px] mx-auto flex flex-col lg:flex-row p-2 gap-4 rounded-lg bg-white dark:bg-gray-600 ${classname}`}
     >
       <div className="lg:w-1/2 p-3">
         <div
@@ -35,7 +32,7 @@ const ProjectView: React.FC<ProjectViewProps> = (props) => {
           }}
         ></div>
       </div>
-      <div className="lg:w-1/2  flex-1 flex flex-col justify-between px-5 py-3">
+      <div className="lg:w-1/2 flex-1 flex flex-col justify-between px-5 py-3">
         <div>
           <h3 className="text-2xl font-semibold mb-3 text-gray-800 dark:text-white">
             {title}
@@ -50,7 +47,7 @@ const ProjectView: React.FC<ProjectViewProps> = (props) => {
                 {techStacks.map((tech, techIndex) => (
                   <li
                     key={techIndex}
-                    className="text-sm font-semibold bg-gray-200 py-1 px-3 rounded-lg"
+                    className="text-sm font-semibold bg-gray-200 dark:text-black py-1 px-3 rounded-lg"
                   >
                     {tech}
                   </li>

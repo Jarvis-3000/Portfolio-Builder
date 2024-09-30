@@ -45,12 +45,7 @@ const Header: React.FC<HeaderProps> = ({
           >
             Experience
           </li>
-          {/* <li
-            className="cursor-pointer text-white font-semibold hover:text-blue-500"
-            onClick={() => handleScroll("contact")}
-          >
-            Contact
-          </li> */}
+    
         </ul>
       </nav>
     </motion.header>

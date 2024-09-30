@@ -1,7 +1,5 @@
 "use-client";
 import Image from "next/image";
-import { motion } from "framer-motion";
-
 interface ExperienceProps {
   imageUrl: string;
   title: string;
@@ -23,9 +21,9 @@ const Experience: React.FC<ExperienceProps> = (props) => {
 
   return (
     <div
-      className={`w-full max-w-[1000px] mx-auto  flex flex-col lg:flex-row p-2 gap-4 rounded-lg bg-white ${classname}`}
+      className={`w-full max-w-[1000px] mx-auto  flex flex-col lg:flex-row p-2 gap-4 rounded-lg bg-white dark:bg-gray-600 ${classname}`}
     >
-      <motion.div className="flex-1 min-h-[150px] sm:min-h-[200px] lg:min-h-[300px] relative">
+      <div className="flex-1 min-h-[150px] sm:min-h-[200px] lg:min-h-[300px] relative">
         <Image
           src={imageUrl}
           alt={title}
@@ -33,7 +31,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
           sizes="100vw"
           className="rounded-lg object-contain"
         />
-      </motion.div>
+      </div>
 
       <div className="lg:w-1/2  flex-1 flex flex-col justify-between px-5 py-3">
         <div>
@@ -50,7 +48,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 {techStacks.map((tech, techIndex) => (
                   <li
                     key={techIndex}
-                    className="text-sm font-semibold bg-gray-200 py-1 px-3 rounded-lg"
+                    className="text-sm font-semibold bg-gray-200 dark:text-black py-1 px-3 rounded-lg"
                   >
                     {tech}
                   </li>

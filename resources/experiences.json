@@ -1,8 +1,8 @@
 [
   {
-    "imageUrl": "https://vectorshift-public.s3.amazonaws.com/android-chrome-512x512.png",
+    "imageUrl": "https://res.cloudinary.com/dy6xgrzna/image/upload/v1727705112/1686524725664_ia4w6s.jpg",
     "title": "VectorShift (YC S23)",
-    "description": "Worked on Chatbots that Vectorshift provides to subscribed customers.",
+    "description": "Implemented various chatbot customization options like, theme, message limit per conversation, custom logos, and upload images. Implemented chat data persistent on embedded chatbots for third party customers using indexedDB.",
     "techStacks": ["React", "Next.js", "Typescript", "Python", "Tailwind CSS"],
     "link": "https://www.linkedin.com/company/vectorshift/"
   },
