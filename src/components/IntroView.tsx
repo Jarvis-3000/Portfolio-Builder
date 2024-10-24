@@ -12,7 +12,7 @@ export const IntroView = () => {
   };
 
   return (
-    <div className='pt-[50px] w-full h-[85vh] sm:h-[95vh] flex flex-col items-center justify-center bg-gray-200 dark:bg-gray-500 rounded-b-[80px] lg:rounded-b-[150px] border-b border-gray-300'>
+    <div className='py-[50px] w-full min-h-[85vh] sm:min-h-[95vh] flex flex-col items-center justify-center bg-gray-200 dark:bg-gray-500 rounded-b-[80px] lg:rounded-b-[150px] border-b border-gray-300'>
       {/* Image */}
       <div className='h-fit w-fit rounded-full p-10 border-[1px] border-gray-300 mb-5'>
         <div className='rounded-full p-5 border-[1px] border-gray-400'>
