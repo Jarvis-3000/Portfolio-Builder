@@ -22,9 +22,9 @@ const Projects: React.FC<ProjectsProps> = ({ type = "card" }) => {
           href={"https://github.com/jarvis-3000"}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 text-normal sm:text-lg text-blue-700 dark:text-white font-semibold text-lg hover:underline hover:underline-offset-2"
+          className="flex items-center gap-2 text-normal sm:text-xl text-blue-700 dark:text-white font-semibold hover:underline hover:underline-offset-2"
         >
-          <GitHubLogoIcon  /> See More...
+          <GitHubLogoIcon  /> See more...
         </a>
       </div>
 

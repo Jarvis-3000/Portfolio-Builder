@@ -22,7 +22,7 @@ const ProjectView: React.FC<ProjectViewProps> = (props) => {
 
   return (
     <div
-      className={`w-full max-w-[1000px] mx-auto flex flex-col lg:flex-row p-2 gap-4 rounded-lg bg-white dark:bg-gray-600 ${classname}`}
+      className={`w-full max-w-[1000px] mx-auto flex flex-col lg:flex-row p-2 gap-4 rounded-lg bg-white dark:bg-gray-500 ${classname}`}
     >
       <div className="lg:w-1/2 p-3">
         <div

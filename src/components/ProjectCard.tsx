@@ -24,7 +24,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
 
   return (
     <div
-      className={`flex flex-col max-w-xl rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-600 
+      className={`flex flex-col max-w-xl rounded-lg overflow-hidden shadow-lg border bg-white dark:bg-gray-500 
         hover:scale-105 transition-all duration-500 ${classname}`}
     >
       <a href={liveLink} target="_blank" rel="noopener noreferrer">
