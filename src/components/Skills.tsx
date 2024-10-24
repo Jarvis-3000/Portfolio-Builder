@@ -1,58 +1,103 @@
+import Image from 'next/image';
 
 const SKILLS = [
-  "React",
-  "Next.JS",
-  "TypeScript",
-  "React Native",
-  "JavaScript",
-  "TailwindCSS",
-  "HTML",
-  "CSS",
-  "Git",
-  "Postman",
-  "Java",
-  "Python",
-];
-
-const COLORS: string[] = [
-  "#D57373",
-  "#71C784",
-  "#1115F6",
-  "#FFD54F",
-  "#BA68C8",
-  "#FF8A65",
-  "#4DB6AC",
-  "#A1887F",
-  "#7986CB",
-  "#F06292",
-  "#206292",
-  "#F11112",
-  "#111292",
-  "#222222",
+  {
+    title: 'React',
+    icon: 'react',
+  },
+  {
+    title: 'Next.JS',
+    icon: 'next',
+  },
+  {
+    title: 'TypeScript',
+    icon: 'typescript',
+  },
+  {
+    title: 'JavaScript',
+    icon: 'javascript',
+  },
+  {
+    title: 'TailwindCSS',
+    icon: 'tailwind',
+  },
+  {
+    title: 'Redux',
+    icon: 'redux',
+  },
+  {
+    title: 'HTML',
+    icon: 'html',
+  },
+  {
+    title: 'CSS',
+    icon: 'css',
+  },
+  {
+    title: 'Node.JS',
+    icon: 'node',
+  },
+  {
+    title: 'Express.JS',
+    icon: 'express',
+  },
+  {
+    title: 'MongoDB',
+    icon: 'mongodb',
+  },
+  {
+    title: 'Open Source',
+    icon: 'open-Source',
+  },
+  {
+    title: 'Git',
+    icon: 'git',
+  },
+  {
+    title: 'Postman',
+    icon: 'postman',
+  },
+  {
+    title: 'Vercel',
+    icon: 'vercel',
+  },
+  {
+    title: 'Vite',
+    icon: 'vite',
+  },
+  {
+    title: 'Docker',
+    icon: 'docker',
+  },
+  {
+    title: 'REST API',
+    icon: 'api',
+  },
 ];
 
 export const Skills = () => {
-  const getRandomColor = () => {
-    const random = Math.floor(Math.random() * COLORS.length);
-    const randomColor = COLORS[random];
-
-    return randomColor;
-  };
-
   return (
-    <section id="skills" className="w-full px-6 lg:px-20">
-      <h2 className="flex group items-center justify-center gap-2 text-slate-800 dark:text-white text-3xl font-semibold mb-6 text-center">
+    <section id='skills' className='w-full px-6 lg:px-20'>
+      <h2 className='flex group items-center justify-center gap-2 text-slate-800 dark:text-gray-50 text-4xl font-bold mb-8 text-center'>
         Skills
       </h2>
-      <div className="max-w-[1000px] m-auto flex justify-center flex-wrap gap-4">
+      <div className='max-w-[1200px] m-auto grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-5'>
         {SKILLS.map((skill, index) => (
-          <span
+          <div
             key={index}
-            className={`px-4 py-1 rounded-lg text-white`}
-            style={{backgroundColor:getRandomColor()}}
+            className={`bg-gray-200 dark:bg-gray-50 p-3 rounded-lg min-w-[100px] flex flex-col gap-3 items-center`}
           >
-            {skill}
-          </span>
+            <Image
+              src={`/skills/${skill.icon}.svg`}
+              height={100}
+              width={100}
+              alt={skill.title}
+              className='h-10 w-10 flex-1'
+            />
+            <span className='text-sm text-center text-gray-900 font-semibold'>
+              {skill.title}
+            </span>
+          </div>
         ))}
       </div>
     </section>

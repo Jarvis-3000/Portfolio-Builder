@@ -21,7 +21,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
 
   return (
     <div
-      className={`w-full max-w-[1000px] mx-auto  flex flex-col lg:flex-row p-2 gap-4 rounded-lg bg-white dark:bg-gray-600 ${classname}`}
+      className={`max-w-[1000px] mx-auto flex flex-col lg:flex-row p-2 gap-4 rounded-lg shadow-lg border bg-white dark:bg-gray-500 ${classname}`}
     >
       <div className="flex-1 min-h-[150px] sm:min-h-[200px] lg:min-h-[300px] relative">
         <Image
