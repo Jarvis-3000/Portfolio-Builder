@@ -11,13 +11,13 @@ import { IntroView } from '../components/IntroView';
 
 const Portfolio: React.FC = () => {
   return (
-    <div className='w-full h-full flex bg-white dark:bg-gray-700 flex-col gap-y-[50px]'>
+    <div className='w-full h-full flex bg-white dark:bg-gray-700 flex-col'>
       <Header />
       <IntroView />
       <br />
       <Skills />
       <br />
-      <Projects type='card' />
+      <Projects/>
       <br />
       <Experiences />
       <Footer />

@@ -77,8 +77,8 @@ const SKILLS = [
 
 export const Skills = () => {
   return (
-    <section id='skills' className='w-full px-6 lg:px-20'>
-      <h2 className='flex group items-center justify-center gap-2 text-slate-800 dark:text-gray-50 text-4xl font-bold mb-8 text-center'>
+    <section id='skills' className='w-full px-6 lg:px-20 pt-10'>
+      <h2 className='flex group items-center justify-center gap-2 text-slate-800 dark:text-gray-50 text-4xl font-bold mb-10 text-center'>
         Skills
       </h2>
       <div className='max-w-[1200px] m-auto grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-5'>
