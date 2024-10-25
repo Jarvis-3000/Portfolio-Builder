@@ -13,7 +13,7 @@ const Experiences: React.FC = () => {
           <Experience
             key={experience.title}
             {...experience}
-            classname={`${index % 2 === 0 ? 'lg:flex-row-reverse' : ''}`}
+            className={`${index % 2 === 0 ? 'lg:flex-row-reverse' : ''}`}
           />
         ))}
       </div>

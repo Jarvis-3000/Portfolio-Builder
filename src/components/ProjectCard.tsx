@@ -8,7 +8,7 @@ interface ProjectCardProps {
   liveLink: string;
   codeLink: string;
   techStacks?: string[];
-  classname?: string;
+  className?: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = (props) => {
@@ -19,13 +19,13 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
     liveLink,
     codeLink,
     techStacks = [],
-    classname = '',
+    className = '',
   } = props;
 
   return (
     <div
       className={`flex flex-col max-w-xl rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-700 
-        hover:scale-105 transition-all duration-500 ${classname}`}
+        hover:scale-105 transition-all duration-500 ${className}`}
     >
       <a
         href={liveLink}
