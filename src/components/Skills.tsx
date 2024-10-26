@@ -47,7 +47,7 @@ const SKILLS = [
   },
   {
     title: 'Open Source',
-    icon: 'open-Source',
+    icon: 'open-source',
   },
   {
     title: 'Git',
